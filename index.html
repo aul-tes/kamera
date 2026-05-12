@@ -238,8 +238,18 @@
 
         if (mood === "happy") {
           document.body.style.backgroundColor = "#d4edda";
-          content.innerHTML =
-            "<h3>Mode Semangat</h3><p>Materi lengkap + latihan soal tingkat lanjut.</p>";
+         content.innerHTML = `
+  <h3>Mode Semangat</h3>
+  <p>Materi lengkap + latihan soal tingkat lanjut.</p>
+
+  <br>
+
+  <a href="https://moodlee-learning.moodiy.com/course/section.php?id=42" target="_blank">
+    <button>
+      Kembali ke Moodle
+    </button>
+  </a>
+`;
         }
 
         else if (mood === "sad") {
