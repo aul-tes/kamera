@@ -151,6 +151,18 @@
 
         else if (mood === "sad") {
           content.innerHTML = `
+             <h3>Ringkasan Materi Singkat</h3>
+            <p>Materi ringan agar tidak terlalu lelah.</p>
+         
+            <a href="https://moodlee-learning.moodiy.com/course/section.php?id=57"
+               target="_blank"
+               class="link-btn">
+                Baca Ringkasan MaterI
+            </a>
+          `;
+        }
+        else if (mood === "tired") {
+          content.innerHTML = `
             <h3>Video Pendek + Penjelasan Ringan</h3>
             <p>Belajar santai dulu ya 😊</p>
 
@@ -158,18 +170,6 @@
                target="_blank"
                class="link-btn">
                Tonton Video Belajar
-            </a>
-          `;
-        }
-        else if (mood === "tired") {
-          content.innerHTML = `
-            <h3>Ringkasan Materi Singkat</h3>
-            <p>Materi ringan agar tidak terlalu lelah.</p>
-
-            <a href="https://moodlee-learning.moodiy.com/course/section.php?id=57"
-               target="_blank"
-               class="link-btn">
-               Baca Ringkasan Materi
             </a>
           `;
         }
